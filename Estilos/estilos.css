@@ -8,9 +8,13 @@ h2{
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.534);
+    background-size: cover;
 }
 h3{
     color: rgb(255, 255, 255);
+    background-color: black;
+    background-size: cover;
 }
 h4{
     color: rgb(255, 255, 255);
@@ -20,38 +24,34 @@ h5{
     font-size: 20px;
     color: rgb(255, 255, 255);
     text-align: center;
+    background-color: rgba(0, 9, 139, 0.445);
+    background-size: cover;
 }
-h5:hover{
-    font-size: 150%;
-    color: black;
-    transition: 1s;
-    background-color: orange;
+p{
+    background-color: rgba(0, 0, 0, 0.445);
+    background-size: cover;
 
 }
-li{
-    color: rgb(255, 255, 255);
-    background-color: orange;
-}
 a{
-    color: black
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
 }
 a:hover{
-    color: white;
-    transition: 0.5s;
+    color: rgb(255, 225, 57);
+    transition: 0.7s;
 }
 .bordes{
     border: 5px solid;
     color: rgb(70, 70, 70);
 }
 .fondo{
-    background-image:url(../Recursos/Fondo.jpg);
+    background-image:url(../Recursos/Background.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 ul{
     list-style: none;
-    background-color: orange;
-    border: 2px solid black;
     font-size: 0;
 }
 li{
@@ -59,9 +59,18 @@ li{
     width: 20%;
     position: relative;
     font-size: 20px;
+    color: rgb(255, 255, 255);
+
 }
 li a{
     text-decoration: none;
+}
+.menu{
+    background-color: rgba(63, 63, 63, 0.795);
+    justify-content: center;
+    padding: 1% 1% 1% 1%;
+    border-radius: 15px;
+    margin: 0px 0px 30px 0px;
 }
 .boxmodel{
 border: 2px solid black;
@@ -73,6 +82,9 @@ html, body {
     padding: 0;
     font-family: "Helvetica", sans-serif;
 }
+.carrusel1{
+    padding: 5% 5% 5% 5%;
+}
 .fotoyvideo{
     display: flex;
     flex-wrap: wrap;
@@ -81,6 +93,7 @@ html, body {
     background-size: cover;
     background-position-x: center;
     background-image: url(../Recursos/fondo3.jpg);
+    margin-top: 8%;
 }
 .video1{
     padding: 2% 2% 2% 2%;
@@ -97,8 +110,9 @@ html, body {
     padding: 3% 5% 3% 5%;
 }
 .texto{
-    border: 3px solid black;
-    background-color: rgba(255, 145, 0, 0.795);
+    border:10px solid rgb(201, 201, 201);
+    background-image: url(../Recursos/fondo8.jpg);
+    background-size: cover;
     padding: 2% 2% 2% 2%;
     margin-left: 1%;
     margin-right: 1%;
@@ -107,12 +121,8 @@ html, body {
 .fondoproductos{
     padding: 5% 10% 5% 10%;
 }
-.producto{
-    margin: 0% 1% 0% 1%;
-}
-.producto:hover{
-    transform: scale(108%);
-    transition: 0.3s;
+.col-md-3{
+    margin-top: 1%;
 }
 .footer{
     margin-top: 50px;
@@ -123,14 +133,20 @@ html, body {
     width: 100%
 }
 .formulario{
-    background-image: url(../Recursos/fondo3.jpg);
+    
+    background-image: url(../Recursos/fondo4.jpg);
+    background-size: cover;
     color: white;
-    padding-left: 10px;
+    padding:5%;
+    margin: 0% 0% 5% 0%;
 }
 .fondoheader{
     background-image: url(../Recursos/Barra1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.redeslink{
+    padding: 0px 0px 0px 10px;
 }
 .logo{
     float: left;
@@ -145,14 +161,17 @@ margin: 0px 0px 0px 80%;
     justify-content: center;
     padding: 3% 5% 3% 5%;
 }
+.menumovil{
+    height: 60px;
+    background-color: rgba(63, 63, 63, 0.795);
+}
 @media (max-width:600px){
     .menu{display: none;}
-}
-@media (min-width:600px){
-    .menu640px{display: none;}
-    .fondoheader{display: flex;}
 }
 @media (max-width:440px){
     .foto1{height: 200px; width: 300px;}
     .video1{height: 200px; width: 300px;}
+}
+@media (min-width:600px){
+    .menumovil{display: none;}
 }
