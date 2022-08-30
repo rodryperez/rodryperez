@@ -1,177 +1,224 @@
-h1{
-    color: white;
-    text-align: center;
-    font-style: oblique;
-    font-size: 40px;
+h1 {
+  color: white;
+  text-align: center;
+  font-style: oblique;
+  font-size: 40px;
 }
-h2{
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 30px;
-    background-color: rgba(0, 0, 0, 0.534);
-    background-size: cover;
-}
-h3{
-    color: rgb(255, 255, 255);
-    background-color: black;
-    background-size: cover;
-}
-h4{
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-h5{
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    background-color: rgba(0, 9, 139, 0.445);
-    background-size: cover;
-}
-p{
-    background-color: rgba(0, 0, 0, 0.445);
-    background-size: cover;
 
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.534);
+  background-size: cover;
 }
-a{
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-}
-a:hover{
-    color: rgb(255, 225, 57);
-    transition: 0.7s;
-}
-.bordes{
-    border: 5px solid;
-    color: rgb(70, 70, 70);
-}
-.fondo{
-    background-image:url(../Recursos/Background.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-ul{
-    list-style: none;
-    font-size: 0;
-}
-li{
-    display: inline-block;
-    width: 20%;
-    position: relative;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
 
+h3 {
+  color: white;
+  background-color: black;
+  background-size: cover;
 }
-li a{
-    text-decoration: none;
+
+h4 {
+  color: white;
+  text-align: center;
 }
-.menu{
-    background-color: rgba(63, 63, 63, 0.795);
-    justify-content: center;
-    padding: 1% 1% 1% 1%;
-    border-radius: 15px;
-    margin: 0px 0px 30px 0px;
+
+h5 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 9, 139, 0.445);
+  background-size: cover;
 }
-.boxmodel{
-border: 2px solid black;
+
+p {
+  background-color: rgba(0, 0, 0, 0.445);
+  background-size: cover;
 }
+
+a {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+a:hover {
+  color: rgb(255, 225, 57);
+  transition: 0.7s;
+}
+
+.bordes {
+  border: 5px solid;
+  color: rgb(70, 70, 70);
+}
+
+.fondo {
+  background-image: url(../Recursos/Background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+ul {
+  list-style: none;
+  font-size: 0;
+}
+
+li {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  font-size: 20px;
+  color: white;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.menu {
+  background-color: rgba(63, 63, 63, 0.795);
+  justify-content: center;
+  padding: 1% 1% 1% 1%;
+  border-radius: 15px;
+  margin: 0px 0px 30px 0px;
+}
+
+.boxmodel {
+  border: 2px solid black;
+}
+
 html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: "Helvetica", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
 }
-.carrusel1{
-    padding: 5% 5% 5% 5%;
+
+.carrusel1 {
+  padding: 5% 5% 5% 5%;
 }
-.fotoyvideo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-image: url(../Recursos/fondo3.jpg);
-    margin-top: 8%;
+
+.fotoyvideo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-image: url(../Recursos/fondo3.jpg);
+  margin-top: 8%;
 }
-.video1{
-    padding: 2% 2% 2% 2%;
-    height: 300px;
-    width: 400px;
+
+.video1 {
+  padding: 2% 2% 2% 2%;
+  height: 300px;
+  width: 400px;
 }
-.foto1{
-    padding: 2% 2% 2% 2%;
-    height: 300px;
-    width: 400px;
+
+.foto1 {
+  padding: 2% 2% 2% 2%;
+  height: 300px;
+  width: 400px;
 }
-.marcodetexto{
-    justify-content: center;
-    padding: 3% 5% 3% 5%;
+
+.marcodetexto {
+  justify-content: center;
+  padding: 3% 5% 3% 5%;
 }
-.texto{
-    border:10px solid rgb(201, 201, 201);
-    background-image: url(../Recursos/fondo8.jpg);
-    background-size: cover;
-    padding: 2% 2% 2% 2%;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 1%;
+
+.texto {
+  border: 10px solid rgb(201, 201, 201);
+  background-image: url(../Recursos/fondo8.jpg);
+  background-size: cover;
+  padding: 2% 2% 2% 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
 }
-.fondoproductos{
-    padding: 5% 10% 5% 10%;
+
+.fondoproductos {
+  padding: 5% 10% 5% 10%;
 }
-.col-md-3{
-    margin-top: 1%;
+
+.col-md-3 {
+  margin-top: 1%;
 }
-.footer{
-    margin-top: 50px;
-    padding: 20px 0px 20px 0px;
-    background-color: rgb(59, 59, 59);
-    display: flex;
-    justify-content: center;
-    width: 100%
+
+.col-md-3:hover {
+  transform: scale(110%) !important;
+  transition-duration: 0.5s;
 }
-.formulario{
-    
-    background-image: url(../Recursos/fondo4.jpg);
-    background-size: cover;
-    color: white;
-    padding:5%;
-    margin: 0% 0% 5% 0%;
+
+.footer {
+  margin-top: 50px;
+  padding: 20px 0px 20px 0px;
+  background-color: rgb(59, 59, 59);
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
-.fondoheader{
-    background-image: url(../Recursos/Barra1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.formulario {
+  background-image: url(../Recursos/fondo4.jpg);
+  background-size: cover;
+  color: white;
+  padding: 5%;
+  margin: 0% 0% 5% 0%;
 }
-.redeslink{
-    padding: 0px 0px 0px 10px;
+
+.fondoheader {
+  background-image: url(../Recursos/Barra1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.logo{
-    float: left;
+
+.redeslink {
+  padding: 0px 0px 0px 10px;
 }
-.menu640px{
-margin: 0px 0px 0px 80%;
+
+.logo {
+  float: left;
 }
-.textarea{
-    display: flex;
+
+.menu640px {
+  margin: 0px 0px 0px 80%;
 }
-.sucursales{
-    justify-content: center;
-    padding: 3% 5% 3% 5%;
+
+.textarea {
+  display: flex;
 }
-.menumovil{
-    height: 60px;
-    background-color: rgba(63, 63, 63, 0.795);
+
+.sucursales {
+  justify-content: center;
+  padding: 3% 5% 3% 5%;
 }
-@media (max-width:600px){
-    .menu{display: none;}
+
+.menumovil {
+  height: 60px;
+  background-color: rgba(63, 63, 63, 0.795);
 }
-@media (max-width:440px){
-    .foto1{height: 200px; width: 300px;}
-    .video1{height: 200px; width: 300px;}
+
+@media (max-width: 600px) {
+  .menu {
+    display: none;
+  }
 }
-@media (min-width:600px){
-    .menumovil{display: none;}
+@media (max-width: 440px) {
+  .foto1 {
+    height: 200px;
+    width: 300px;
+  }
+  .video1 {
+    height: 200px;
+    width: 300px;
+  }
 }
+@media (min-width: 600px) {
+  .menumovil {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
