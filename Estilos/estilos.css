@@ -33,7 +33,7 @@ h5 {
 }
 
 p {
-  background-color: rgba(0, 0, 0, 0.445);
+  background-color: rgba(0, 0, 0, 0.534);
   background-size: cover;
 }
 
@@ -79,7 +79,7 @@ li a {
 .menu {
   background-color: rgba(63, 63, 63, 0.795);
   justify-content: center;
-  padding: 1% 1% 1% 1%;
+  padding: 1%;
   border-radius: 15px;
   margin: 0px 0px 30px 0px;
 }
@@ -97,7 +97,7 @@ html, body {
 }
 
 .carrusel1 {
-  padding: 5% 5% 5% 5%;
+  padding: 5%;
 }
 
 .fotoyvideo {
@@ -112,13 +112,13 @@ html, body {
 }
 
 .video1 {
-  padding: 2% 2% 2% 2%;
+  padding: 2%;
   height: 300px;
   width: 400px;
 }
 
 .foto1 {
-  padding: 2% 2% 2% 2%;
+  padding: 2%;
   height: 300px;
   width: 400px;
 }
@@ -132,7 +132,7 @@ html, body {
   border: 10px solid rgb(201, 201, 201);
   background-image: url(../Recursos/fondo8.jpg);
   background-size: cover;
-  padding: 2% 2% 2% 2%;
+  padding: 2%;
   margin-left: 1%;
   margin-right: 1%;
   margin-top: 1%;
@@ -154,7 +154,7 @@ html, body {
 .footer {
   margin-top: 50px;
   padding: 20px 0px 20px 0px;
-  background-color: rgb(59, 59, 59);
+  background-color: rgb(70, 70, 70);
   display: flex;
   justify-content: center;
   width: 100%;
@@ -219,6 +219,4 @@ html, body {
   .menumovil {
     display: none;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
