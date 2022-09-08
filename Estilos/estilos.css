@@ -1,6 +1,4 @@
 h1 {
-  color: white;
-  text-align: center;
   font-style: oblique;
   font-size: 40px;
 }
@@ -8,7 +6,6 @@ h1 {
 h2 {
   color: white;
   text-align: center;
-  font-size: 30px;
   background-color: rgba(0, 0, 0, 0.534);
   background-size: cover;
 }
@@ -19,15 +16,13 @@ h3 {
   background-size: cover;
 }
 
-h4 {
+h4, h5, h1 {
   color: white;
   text-align: center;
 }
 
 h5 {
   font-size: 20px;
-  color: white;
-  text-align: center;
   background-color: rgba(0, 9, 139, 0.445);
   background-size: cover;
 }
@@ -59,12 +54,20 @@ a:hover {
   background-attachment: fixed;
 }
 
-ul {
+ul.menu1 {
   list-style: none;
   font-size: 0;
+  background-color: rgba(63, 63, 63, 0.795);
+  justify-content: center;
+  padding: 1%;
+  border-radius: 15px;
 }
 
-li {
+ul.menu2 {
+  background-color: rgba(63, 63, 63, 0.795);
+}
+
+li.li1 {
   display: inline-block;
   width: 20%;
   position: relative;
@@ -196,8 +199,7 @@ html, body {
 }
 
 .menumovil {
-  height: 60px;
-  background-color: rgba(63, 63, 63, 0.795);
+  height: 120px;
 }
 
 @media (max-width: 600px) {

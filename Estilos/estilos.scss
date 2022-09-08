@@ -42,14 +42,14 @@ h1{
     font-style: oblique;
     font-size: $fuente1;
 }
-@each $white, $font in $colores {
-    h2 #{$white}{
-        color: $font;
-        text-align: center;
-        font-size: $white;
-        background-color: $colornegro2;
-        background-size: cover;}
+
+h2{
+    color: $colorblanco;
+    text-align: center;
+    background-color: $colornegro2;
+    background-size: cover;
 }
+
 h3{
     color: $colorblanco;
     background-color: $colornegro;
@@ -88,11 +88,18 @@ a:hover{
     background-size: cover;
     background-attachment: fixed;
 }
-ul{
+ul.menu1{
     list-style: none;
     font-size: 0;
+    background-color: $colorgris2;
+    justify-content: center;
+    padding: $var2;
+    border-radius: ($px1) - ($px2);
 }
-li{
+ul.menu2{
+    background-color: $colorgris2;
+}
+li.li1{
     display: inline-block;
     width: $var4*4;
     position: relative;
@@ -202,8 +209,7 @@ margin: 0px 0px 0px 80%;
     padding: 3% 5% 3% 5%;
 }
 .menumovil{
-    height: $px1*3;
-    background-color: $colorgris2;
+    height: $px1*6;
 }
 @media (max-width:$px8){
 .menu{display: none;}
