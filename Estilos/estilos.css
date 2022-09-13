@@ -1,6 +1,7 @@
 h1 {
   font-style: oblique;
   font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 h2 {
@@ -8,26 +9,30 @@ h2 {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.534);
   background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 h3 {
   color: white;
   background-color: black;
   background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 h4, h5, h1 {
   color: white;
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 h5 {
   font-size: 20px;
   background-color: rgba(0, 9, 139, 0.445);
   background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-p {
+p.c {
   background-color: rgba(0, 0, 0, 0.534);
   background-size: cover;
 }
@@ -110,8 +115,27 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  background-image: url(../Recursos/fondo3.jpg);
+  background-image: url(../recursos/fondo3.jpg);
   margin-top: 8%;
+  margin: 0% 0% 5% 0%;
+}
+
+.catalogotexto {
+  padding: 5% 5% 5% 5%;
+  background-image: url(../recursos/fondo9.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0% 0% 5% 0%;
+  font-size: 20px;
+  color: black;
+}
+
+.catalogotexto1 {
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 15px;
+  padding: 2% 2% 2% 2%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .video1 {
@@ -133,12 +157,16 @@ html, body {
 
 .texto {
   border: 10px solid rgb(201, 201, 201);
-  background-image: url(../Recursos/fondo8.jpg);
+  background-image: url(../recursos/fondo8.jpg);
   background-size: cover;
   padding: 2%;
   margin-left: 1%;
   margin-right: 1%;
   margin-top: 1%;
+}
+
+.textonoticias {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .fondoproductos {
@@ -164,7 +192,7 @@ html, body {
 }
 
 .formulario {
-  background-image: url(../Recursos/fondo4.jpg);
+  background-image: url(../recursos/fondo4.jpg);
   background-size: cover;
   color: white;
   padding: 5%;
@@ -172,7 +200,7 @@ html, body {
 }
 
 .fondoheader {
-  background-image: url(../Recursos/Barra1.jpg);
+  background-image: url(../recursos/Barra1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -200,6 +228,7 @@ html, body {
 
 .menumovil {
   height: 120px;
+  margin: 0% 0% 5% 0%;
 }
 
 @media (max-width: 600px) {

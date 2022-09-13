@@ -9,6 +9,7 @@ $coloramarillo:rgb(255, 225, 57);
 $fuente1: 40px;
 $fuente2: 30px;
 $fuente3:20px;
+$fuenteclase1:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 $var1:100%;
 $var2:1%;
@@ -24,10 +25,6 @@ $px6:400px;
 $px7:200px;
 $px8:600px;
 
-$colores: (
-    30px: white
-);
-
 @mixin tamaño1 {
     height: $px5;
     width: $px6;
@@ -41,6 +38,7 @@ h1{
     @extend h4;
     font-style: oblique;
     font-size: $fuente1;
+    font-family: $fuenteclase1;
 }
 
 h2{
@@ -48,24 +46,28 @@ h2{
     text-align: center;
     background-color: $colornegro2;
     background-size: cover;
+    font-family: $fuenteclase1;
 }
 
 h3{
     color: $colorblanco;
     background-color: $colornegro;
     background-size: cover;
+    font-family: $fuenteclase1;
 }
 h4{
     color: $colorblanco;
     text-align: center;
+    font-family: $fuenteclase1;
 }
 h5{
     @extend h4;
     font-size: $fuente3;
     background-color: $colorazul1;
     background-size: cover;
+    font-family: $fuenteclase1
 }
-p{
+p.c{
     background-color: $colornegro2;
     background-size: cover;
 
@@ -137,8 +139,25 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-image: url(../Recursos/fondo3.jpg);
+    background-image: url(../recursos/fondo3.jpg);
     margin-top: ($var4) + ($var3) + ($var2);
+    margin: 0% 0% 5% 0%;
+}
+.catalogotexto{
+    padding: 5% 5% 5% 5%;
+    background-image: url(../recursos/fondo9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0% 0% 5% 0%;
+    font-size: $px1;
+    color: $colornegro;
+}
+.catalogotexto1{
+    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: $px2*3;
+    padding: 2% 2% 2% 2%;
+    font-family: $fuenteclase1
 }
 .video1{
     padding: $var3;
@@ -154,12 +173,15 @@ html, body {
 }
 .texto{
     border:10px solid $colorgris3;
-    background-image: url(../Recursos/fondo8.jpg);
+    background-image: url(../recursos/fondo8.jpg);
     background-size: cover;
     padding: $var3;
     margin-left: $var2;
     margin-right: $var2;
     margin-top: $var2;
+}
+.textonoticias{
+    font-family: $fuenteclase1;
 }
 .fondoproductos{
     padding: 5% 10% 5% 10%;
@@ -181,14 +203,14 @@ html, body {
 }
 .formulario{
     
-    background-image: url(../Recursos/fondo4.jpg);
+    background-image: url(../recursos/fondo4.jpg);
     background-size: cover;
     color: $colorblanco;
     padding:$var4;
     margin: 0% 0% 5% 0%;
 }
 .fondoheader{
-    background-image: url(../Recursos/Barra1.jpg);
+    background-image: url(../recursos/Barra1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -210,6 +232,7 @@ margin: 0px 0px 0px 80%;
 }
 .menumovil{
     height: $px1*6;
+    margin: 0% 0% 5% 0%;
 }
 @media (max-width:$px8){
 .menu{display: none;}
